@@ -1,4 +1,4 @@
-# Plan of Action: Water Body Extraction Prototype for WFI Sensors
+# Water Body Extraction Prototype for WFI Sensors
 ## Gabriel Lucas Xavier da Silva — Bolsista DTI-B
 
 ---
