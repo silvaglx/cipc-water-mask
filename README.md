@@ -343,10 +343,10 @@ Input: WFI scene (any satellite) + config file
 Use YAML config files per satellite:
 
 ```yaml
-# cbers4a_wfi.yaml
-satellite: "CBERS-4A"
+# cbers4_wfi.yaml
+satellite: "CBERS-4"
 sensor: "WFI"
-spatial_resolution: 55
+spatial_resolution: 64
 bands:
   blue: {index: 1, wavelength: [0.45, 0.52], esun: 1984.65}
   green: {index: 2, wavelength: [0.52, 0.59], esun: 1823.40}

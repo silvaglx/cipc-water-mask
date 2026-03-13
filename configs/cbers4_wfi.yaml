@@ -1,0 +1,27 @@
+satellite: "CBERS-4"
+sensor: "WFI"
+spatial_resolution: 64
+bands:
+  blue: {index: 1, wavelength: [0.45, 0.52], esun: 1984.65}
+  green: {index: 2, wavelength: [0.52, 0.59], esun: 1823.40}
+  red: {index: 3, wavelength: [0.63, 0.69], esun: 1559.20}
+  nir: {index: 4, wavelength: [0.77, 0.89], esun: 1076.30}
+calibration:
+  gain: [0.379, 0.498, 0.360, 0.351]  # from Pinto et al., 2016
+  offset: [0, 0, 0, 0]
+hsv:
+  r_band: "green"
+  g_band: "red"
+  b_band: "nir"
+thresholds:  # To be calibrated during Phase 1
+  water: {hue_min: 16, hue_max: 35}
+  water95: {hue_ranges: [[35, 36], [324, 16]]}
+  water90: {hue_ranges: [[36, 37], [308, 324]]}
+  water80: {hue_min: 37, hue_max: 160}
+mnr:
+  percentiles: {p90: null, p95: null, p99: null, p995: null}  # To be derived
+hand:
+  threshold_high_prob: 5
+  threshold_med_prob: 15
+sunglint:
+  glint_angle_threshold: 25
