@@ -1,11 +1,11 @@
 satellite: "Amazonia-1"
 sensor: "WFI"
-spatial_resolution: 60
+spatial_resolution: 64
 bands:
   blue: {index: 1, wavelength: [0.45, 0.52], esun: null}
   green: {index: 2, wavelength: [0.52, 0.59], esun: null}
   red: {index: 3, wavelength: [0.63, 0.69], esun: null}
-  nir: {index: 4, wavelength: [0.76, 0.89], esun: null}
+  nir: {index: 4, wavelength: [0.77, 0.89], esun: null}
 calibration:
   gain: null  # To be filled
   offset: null

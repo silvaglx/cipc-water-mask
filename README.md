@@ -11,14 +11,14 @@ This project aims to build a **Python-based prototype** for automated water body
 
 | Parameter | CBERS-4 WFI | CBERS-4A WFI | Amazonia-1 WFI |
 |-----------|------------|-------------|----------------|
-| Spatial Resolution | 64 m | 55 m | 60 m |
-| Swath Width | 866 km | 684 km | 740 km |
+| Spatial Resolution | 64 m | 55 m | 64 m |
+| Swath Width | 866 km | 684 km | 850 km |
 | Temporal Resolution | 5 days | 5 days | 5 days |
 | Bands | Blue, Green, Red, NIR | Blue, Green, Red, NIR | Blue, Green, Red, NIR |
 | Blue (µm) | 0.45–0.52 | 0.45–0.52 | 0.45–0.52 |
 | Green (µm) | 0.52–0.59 | 0.52–0.59 | 0.52–0.59 |
 | Red (µm) | 0.63–0.69 | 0.63–0.69 | 0.63–0.69 |
-| NIR (µm) | 0.77–0.89 | 0.77–0.89 | 0.76–0.89 |
+| NIR (µm) | 0.77–0.89 | 0.77–0.89 | 0.77–0.89 |
 | Orbit Altitude | 778 km | 628 km | 752 km |
 | Data Format | GeoTIFF (L4 ortho) | GeoTIFF (L4 ortho) | GeoTIFF (L4 ortho) |
 
