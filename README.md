@@ -95,8 +95,8 @@ watermask/
 
 Three complementary data access routes:
 
-1. **INPE STAC API** (`https://data.inpe.br/stac/`): Official INPE catalog, includes WFI L4 products from all three satellites in GeoTIFF format.
-2. **CBERS on AWS** (STAC at `https://stac.scitekno.com.br/v100/`): Cloud-optimized GeoTIFF (COG) format, ideal for direct streaming without full download.
+1. **INPE STAC API** (`https://data.inpe.br/stac/browser/?.language=en`): Official INPE catalog, includes WFI L4 products from all three satellites in GeoTIFF format.
+2. **CBERS on AWS** (`https://registry.opendata.aws/cbers/`): Cloud-optimized GeoTIFF (COG) format, ideal for direct streaming without full download.
 3. **cbers4asat Python library** (`pip install cbers4asat`): Convenience wrapper for searching and downloading CBERS-4A and Amazonia-1 imagery from the INPE DGI catalog.
 
 **Practical step:** Create a configuration-driven STAC client that abstracts the catalog endpoint, collection ID, and band naming differences across all three satellites. Store per-satellite metadata (band names, calibration coefficients, solar exoatmospheric irradiance values) in YAML configs.
@@ -482,10 +482,10 @@ For operational use across Brazil:
 7. Pinto, C. T. et al. (2016). First in-flight radiometric calibration of MUX and WFI on-board CBERS-4. Remote Sensing, 8(5), 405.
 
 ### Data Sources
-- INPE STAC: `https://data.inpe.br/stac/`
-- CBERS/Amazonia-1 on AWS: `s3://cbers-pds/`
+- INPE STAC: `https://data.inpe.br/stac/browser/?.language=en`
+- CBERS/Amazonia-1 on AWS: `https://registry.opendata.aws/cbers/`
 - GLO-30 HAND on AWS: `s3://glo-30-hand/`
-- Sentinel-2 L2A on AWS: Element84 Earth Search STAC
+- Sentinel-2 L2A on AWS: Element84 Earth Search STAC (`https://earth-search.aws.element84.com/v1/`)
 - JRC Global Surface Water: `https://global-surface-water.appspot.com/`
 - Brazil Data Cube: `https://data.inpe.br/bdc/`
 
