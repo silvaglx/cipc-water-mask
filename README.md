@@ -422,10 +422,10 @@ For operational use across Brazil:
 ## 4. Practical First Steps (Month 1 Checklist)
 
 ### Week 1: Environment
-- [ ] Set up Python 3.11+ environment with conda/venv.
-- [ ] Install core dependencies: `rasterio`, `numpy`, `xarray`, `pystac-client`, `shapely`, `geopandas`, `matplotlib`, `scikit-image`.
-- [ ] Initialize git repository with the package structure above.
-- [ ] Create YAML config templates for each satellite.
+- [x] Set up Python 3.11+ environment with conda/venv.
+- [x] Install core dependencies: `rasterio`, `numpy`, `xarray`, `pystac-client`, `shapely`, `geopandas`, `matplotlib`, `scikit-image`.
+- [x] Initialize git repository with the package structure above.
+- [x] Create YAML config templates for each satellite.
 
 ### Week 2: Data Access
 - [ ] Register at INPE DGI catalog (https://www.dgi.inpe.br/catalogo/explore).
