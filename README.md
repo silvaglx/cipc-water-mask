@@ -428,8 +428,8 @@ For operational use across Brazil:
 - [x] Create YAML config templates for each satellite.
 
 ### Week 2: Data Access
-- [ ] Register at INPE DGI catalog (https://www.dgi.inpe.br/catalogo/explore).
-- [ ] Test `cbers4asat` library: search and download a WFI scene from each satellite.
+- [x] Register at INPE DGI catalog (https://www.dgi.inpe.br/catalogo/explore).
+- [x] Test `cbers4asat` library: search and download a WFI scene from each satellite.
 - [ ] Test STAC API access via `pystac-client` to INPE and AWS endpoints.
 - [ ] Download HAND tiles for study areas from AWS.
 - [ ] Download sample Sentinel-2 L2A scenes (near-temporal to WFI) from Copernicus Data Space.

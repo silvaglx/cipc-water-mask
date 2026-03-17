@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+__pycache__/
+*.tif
+*.nc
+cipc-data/
+downloads/
+STACK/
